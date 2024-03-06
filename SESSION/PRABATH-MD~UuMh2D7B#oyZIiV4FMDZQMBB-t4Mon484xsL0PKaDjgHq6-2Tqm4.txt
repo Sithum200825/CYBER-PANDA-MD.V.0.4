@@ -1,0 +1,20 @@
+PRABATH-MD~UuMh2D7B#oyZIiV4FMDZQMBB-t4Mon484xsL0PKaDjgHq6-2Tqm4
+def personal_assistant_chatbot():
+    print("Hello! I am your personal assistant chatbot. How can I help you today?")
+    
+    while True:
+        user_input = input("You: ")
+        
+        if user_input.lower(PRABATH-MD~UuMh2D7B#oyZIiV4FMDZQMBB-t4Mon484xsL0PKaDjgHq6-2Tqm4) == "exit":
+            print("Exiting the chatbot. Goodbye!")
+            break
+        
+        # Add your own custom responses based on user input
+        if "hello" in user_input.lower():
+            print("Hello! How can I assist you?")
+        elif "how are you" in user_input.lower():
+            print("I am just a program, so I don't have feelings, but thank you for asking!")
+        else:
+            print("I'm sorry, I don't understand. Can you please rephrase or ask something else?")
+
+personal_assistant_chatbot(PRABATH-MD~UuMh2D7B#oyZIiV4FMDZQMBB-t4Mon484xsL0PKaDjgHq6-2Tqm4)
